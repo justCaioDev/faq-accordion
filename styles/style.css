@@ -96,3 +96,13 @@ main .faq-content {
     overflow: hidden;
     height: 0;
 }
+
+@media screen and (max-width: 750px) {
+    main {
+        padding-inline: 20px;
+    }
+
+    main .bg-top {
+        background-image: url(../assets/images/background-pattern-mobile.svg);
+    }
+}
